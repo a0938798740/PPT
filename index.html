@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+
+		<div class="reveal"> 
+
+		<div class="reveal">
+
+			<div class="slides" style="font-family:Microsoft JhengHei;">
+				<img src="css/TyphoonRentVS.png" width="262" height="170" style="position: center top">
+				<section id="page1">
+					<br><br>
+
+					<h2 style="font-family: Microsoft JhengHei;">颱風租屋比價網</h2>
+					<p> 林德昌 夏培瑄 黃芳雯 朱文亞 陳穎弘 李孫廷</p>
+				</section>
+				<section id="page2">
+				<br><br><br><br>
+				<h2 style="font-family: Microsoft JhengHei;">您，租貴了嗎?</h2>
+				<br>
+				<img src="css/owo.png" width="376" height="266" style="position: center bottom" >
+				</section>
+				<section id="page3">
+				Slide 2
+				</section>
+				<section>
+				Slide 3
+				</section>
+				<section>
+				Slide 4
+				</section>
+				<section>
+				Slide 5
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
